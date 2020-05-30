@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ccanimation.MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="6dp">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Edit Text"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/myshape"
+        android:gravity="center"
+        android:textColor="#FFFFFF"/>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginTop="6dp"
+    android:textColor="#FFFFFF"
+    android:text="Submit Button"
+    android:background="@drawable/solid_bg"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="6dp"
+        android:textColor="#FFFFFF"
+        android:text="Submit Button"
+        android:background="@drawable/gradient_drawable"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="6dp"
+        android:textColor="#FFFFFF"
+        android:text="Submit Button"
+        android:background="@drawable/gradient_drawable1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="6dp"
+        android:textColor="#FFFFFF"
+        android:text="Submit Button"
+        android:background="@drawable/gradient_drawable2"/>
+
+
+
+
+</LinearLayout>
